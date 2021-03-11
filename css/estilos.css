@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Header {
+  width: 100%;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+}
+.Header__nav {
+  width: 188px;
+  height: 15px;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.Header__nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Header__nav li {
+  list-style: none;
+  display: inline;
+  font-size: 12px;
+}
+.Header__Logo {
+  width: 108px;
+  height: 27px;
+}
+.Header__Logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Portada {
+  width: 100%;
+  height: 493px;
+  background-image: url("Portada.png");
+}
+
+.titulo {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.titulo h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+}
+
+.Category {
+  width: 100%;
+  height: 565px;
+  padding: 64px 0 64px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+}
+
+.Producto {
+  width: 298px;
+  height: 437px;
+}
+.Producto__img {
+  width: 100%;
+  height: 373px;
+}
+.Producto__btn {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  padding: 12px 24px;
+  text-align: center;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  border: unset;
+  margin-top: 24px;
+  margin-left: 74px;
+}
+.Producto__btn--lg {
+  width: 154px;
+  height: 40px;
+  background-color: black;
+  padding: 12px 24px;
+  text-align: center;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  border: unset;
+  margin-top: 24px;
+  margin-left: 74px;
+}
