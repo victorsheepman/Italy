@@ -42,7 +42,6 @@
 .Portada {
   width: 100%;
   height: 493px;
-  background-image: url("Portada.png");
 }
 
 .titulo {
@@ -63,7 +62,6 @@
   padding: 64px 0 64px 0;
   display: flex;
   justify-content: space-around;
-  background-color: gray;
 }
 
 .Producto {
@@ -103,4 +101,89 @@
   border: unset;
   margin-top: 24px;
   margin-left: 74px;
+}
+
+.feedback {
+  width: 100%;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.Container {
+  width: 881px;
+  height: 516px;
+  display: flex;
+}
+.Container__imagen {
+  width: 400px;
+  height: 400px;
+}
+
+.data {
+  width: 398px;
+  height: 100%;
+  margin-left: 83px;
+  font-family: "Inter", sans-serif;
+}
+.data__titulo {
+  width: 100%;
+  height: 48px;
+}
+.data__titulo h3 {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-left: 63px;
+  margin-bottom: 16px;
+}
+.data__titulo span {
+  margin-left: 183.5px;
+}
+.data p {
+  text-align: center;
+  font-size: 13px;
+  line-height: 24px;
+  margin-top: 24px;
+}
+.data__colour {
+  width: 100%;
+  height: 44px;
+  margin-top: 24px;
+}
+.data__colour h4 {
+  margin-left: 161px;
+  font-size: 10px;
+  color: #1c1b1b;
+  opacity: 0.5;
+}
+.data__circulo {
+  width: 64px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 167px;
+  margin-top: 4px;
+}
+.data__circulo--dorado, .data__circulo--gris {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-sizing: border-box;
+  background: linear-gradient(312.66deg, #efd48a 43.37%, #bf9740 70.06%), #d6b05e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.data__circulo--gris {
+  background: linear-gradient(231.91deg, #9E9E9E 27.13%, #E4E4E4 80.75%), #C4C4C4;
+}
+.data__size {
+  width: 100%;
+  height: 48px;
+  margin-top: 24px;
+}
+.data__size h4 {
+  margin-left: 186.5px;
 }
