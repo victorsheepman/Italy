@@ -4,6 +4,10 @@
   padding: 0px;
 }
 
+body {
+  background-color: #f1f1f1;
+}
+
 .Header {
   width: 100%;
   height: 57px;
@@ -51,7 +55,7 @@
   align-items: flex-end;
   justify-content: center;
 }
-.titulo h3 {
+.titulo h3, .titulo .card__data span, .card__data .titulo span {
   font-family: "Inter", sans-serif;
   font-size: 13px;
 }
@@ -139,7 +143,7 @@
   width: 100%;
   height: 48px;
 }
-.data__titulo h3 {
+.data__titulo h3, .data__titulo .card__data span, .card__data .data__titulo span {
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
@@ -160,7 +164,7 @@
   height: 44px;
   margin-top: 24px;
 }
-.data__circulo {
+.data__circulo, .card__circulo {
   width: 64px;
   height: 24px;
   display: flex;
@@ -168,7 +172,7 @@
   margin-left: 167px;
   margin-top: 4px;
 }
-.data__circulo--dorado, .data__circulo--gris {
+.data__circulo--dorado, .card__circulo--dorado, .data__circulo--gris, .card__circulo--gris {
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -177,7 +181,7 @@
   background: linear-gradient(312.66deg, #efd48a 43.37%, #bf9740 70.06%), #d6b05e;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.data__circulo--gris {
+.data__circulo--gris, .card__circulo--gris {
   background: linear-gradient(231.91deg, #9E9E9E 27.13%, #E4E4E4 80.75%), #C4C4C4;
 }
 .data__size {
@@ -235,4 +239,225 @@
   font-family: "Inter", sans-serif;
   text-decoration: none;
   border-bottom: 1px solid #1C1B1B;
+}
+
+.accesorios {
+  width: 100%;
+  height: 1022px;
+}
+.accesorios__seccion {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: 271px;
+  height: 383px;
+}
+.card__imagen {
+  width: 100%;
+  height: 271px;
+}
+.card__data {
+  width: 100%;
+  height: 56px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card__data h3, .card__data span {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.card__data span {
+  color: rgba(28, 27, 27, 0.5);
+  margin-top: 8px;
+}
+.card__circulo {
+  margin-left: 103.5px;
+  margin-top: 16px;
+}
+.cuadro {
+  width: 100%;
+  height: 675.5px;
+}
+.cuadro__btn {
+  width: 189px;
+  height: 40px;
+  background-color: black;
+  padding: 12px 24px;
+  text-align: center;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  border: unset;
+  margin-left: 589px;
+}
+.cuadro__foto {
+  width: 720px;
+  height: 379.5px;
+  margin-top: 128px;
+  margin-left: 323px;
+}
+
+.blogspot {
+  width: 100%;
+  height: 489px;
+}
+.blogspot h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 616px;
+}
+.blogspot__blog {
+  width: 100%;
+  height: 241px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.blogspot__articulo {
+  width: 361px;
+  height: 241px;
+  background-image: url("../img/articulo1.png");
+}
+.blogspot h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(28, 27, 27, 0.5);
+}
+.blogspot__btn {
+  width: 146px;
+  height: 40px;
+  background-color: black;
+  padding: 12px 24px;
+  text-align: center;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  border: unset;
+  margin-left: 610px;
+  margin-top: 64px;
+}
+.blogspot .mujer {
+  background-image: url("../img/articulo2.png");
+}
+.blogspot .chicos {
+  background-image: url("../img/articulo3.png");
+}
+
+.cuadro__form__content h3, .cuadro__form__content .card__data span, .card__data .cuadro__form__content span, .cuadro__lista h3, .cuadro__lista .card__data span, .card__data .cuadro__lista span, .cuadro__footer h3, .cuadro__footer .card__data span, .card__data .cuadro__footer span {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cuadro__lista li, footer p {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(28, 27, 27, 0.5);
+}
+
+footer {
+  width: 100%;
+  height: 592px;
+  background-color: white;
+  padding-top: 100px;
+  display: flex;
+}
+footer p {
+  line-height: 24px;
+}
+
+.cuadro__footer {
+  width: 310px;
+  height: 146px;
+  margin-left: 50px;
+}
+.cuadro__footer p {
+  margin-top: 29px;
+}
+
+.cuadro__container {
+  width: 124px;
+  height: 24px;
+  margin-top: 29px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cuadro__lista {
+  width: 310px;
+  height: 392px;
+  margin-left: 168px;
+}
+.cuadro__lista li {
+  list-style: none;
+  line-height: 32px;
+}
+
+.cuadro__form {
+  width: 310px;
+  height: 196px;
+  margin-left: 168px;
+}
+.cuadro__form input {
+  width: 100%;
+  height: 40px;
+  border: 1px rgba(28, 27, 27, 0.5) solid;
+  padding-left: 24px;
+  margin-top: 22px;
+}
+.cuadro__form__content {
+  width: 100%;
+  height: 72px;
+}
+.cuadro__form__content h3, .cuadro__form__content .card__data span, .card__data .cuadro__form__content span {
+  margin-bottom: 13px;
+}
+.cuadro__form button {
+  width: 115px;
+  height: 40px;
+  background-color: black;
+  padding: 12px 24px;
+  text-align: center;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  border: unset;
+  margin-top: 22px;
 }
